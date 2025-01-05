@@ -7,9 +7,9 @@ const NavBar = () => {
  <div style={{display:'flex', flexDirection:'column'}}>
 
 <h1>------learing router-----</h1>
-<Link href ='/'>app</Link>
-<Link href ='/Home'>Home</Link>
-<Link href ='/info'>info</Link>
+<Link to ='/'>app</Link>
+<Link to ='/Home'>Home</Link>
+<Link to ='/info'>info</Link>
 
 </div>
     </div>
