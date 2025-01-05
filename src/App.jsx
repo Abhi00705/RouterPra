@@ -10,10 +10,10 @@ import NavBar from './components/NavBar'
 function App() {
 
   const Router = createBrowserRouter([
-    {
-      path:'/',
-      element:<App/> 
-    },
+   {
+    path:'/',
+    element:<NavBar/>
+   },
     {
       path:'/home',
       element:<Home/> 
@@ -27,7 +27,6 @@ function App() {
 
   return (
     <>
-    <NavBar />
     <RouterProvider router={Router}/>
     </>
   )
